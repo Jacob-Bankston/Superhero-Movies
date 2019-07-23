@@ -1,0 +1,11 @@
+#movieFeature {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+}
+
+#movieList {
+    display: flex;
+    flex-wrap: wrap;
+}

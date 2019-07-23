@@ -18,10 +18,9 @@ function getIMDBid(id) {
                                             <img src="${movieInfo.Poster}" class="large-movie-poster" />
                                         </div>
                                         <div class="main-information">
-                                            <span>${movieInfo.Year}</span>
-                                            <span>${movieInfo.Rated}</span>
-                                            <span>${movieInfo.Released}</span>
-                                            <span>${movieInfo.Director}</span>
+                                            <span>Rating: ${movieInfo.Rated}</span>
+                                            <span>Date Released: ${movieInfo.Released}</span>
+                                            <span>Director: ${movieInfo.Director}</span>
                                         </div>
                                     </div>`
         console.log(movieFeature)

@@ -1,11 +1,92 @@
-#movieFeature {
+body {
+    background-color: #222222;
+}
+
+.main-movie {
+    display: flex;
+    background: rgba(255, 255, 255, 0.4);
+    border: 2px solid white;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.large-movie-poster {
+    width: 50%;
+    height: auto;
+    flex: 2;
+    border: 4px solid black;
+    border-radius: 10px;
+}
+
+.main-title-and-poster {
+    display: flex;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2em;
+    padding: 3px;
+}
+
+.main-title-and-poster h1 {
+    display: flex;
+    flex: 1;
+    text-align: center;
+    justify-content: center;
+}
+
+.main-information {
     display: flex;
     flex-direction: column;
-    height: auto;
-    width: auto;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    font-size: 2.5em;
+    padding: 3px;
 }
 
 #movieList {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.featured-movie {
+    display: flex;
+    width: 250px;
+    height: auto;
+    padding: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    border: 2px solid black;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.title-and-poster {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.title-and-poster h2 {
+    display: flex;
+    font-family: 'Bitter', serif;
+    text-shadow: 2px 2px 4px gray;
+    font-size: 1.5em;
+    color: white;
+}
+
+.movie-poster {
+    display: flex;
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
 }
